@@ -52,8 +52,7 @@ namespace CsvSorter
 
         }
 
-		/* @todo #1:30m clean up the unnecessary parameter here */
-		/* @todo #1:30m clean up the unnecessary parameter here */
+		/* @todo #1:30min clean up the unnecessary parameter here */
         public StreamReader OpenFile(string file = null)
         {
             return new StreamReader(
@@ -73,7 +72,7 @@ namespace CsvSorter
             throw new NotImplementedException();
         }
 
-		/* @todo: #1:30min Clarify how to use SaveToFile makes sense */
+		/* @todo #1:30min Clarify how to use SaveToFile makes sense */
         public void SaveToFile(string fileName, int limit = -1)
         {
             var dir = (new FileInfo(fileName)).Directory;
