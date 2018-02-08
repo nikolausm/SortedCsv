@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/CsvSorter.csproj"
+                "${workspaceFolder}/SortedCsv/CsvSorter.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
