@@ -1,0 +1,11 @@
+errors:
+  - michael.nikolaus@gmail.com
+alerts:
+  github:
+    - nikolausm
+format:
+  - short-title
+  - title-length=100
+tags:
+  - pdd
+  - bug
