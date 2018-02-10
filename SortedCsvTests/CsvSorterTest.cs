@@ -64,8 +64,7 @@ namespace SortedCsvTests
             Assert.Equal("test\r\nsecond", result[3]);
         }
 
-        /*
-        @todo #1:45min Create possibility for doublequotes  escapes
+        /* @todo #1:45min Create possibility for doublequotes  escapes
          */
         public class CsvLineReader
         {
