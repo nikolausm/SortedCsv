@@ -13,7 +13,7 @@ namespace SortedCsvTests
         [Fact]
         public void SortedCsvInitialize()
         {
-            /* @todo #3 First there should only be a stream as Input to read the csv.
+            /* @todo #3:90min First there should only be a stream as Input to read the csv.
             e.g. something like: 
                 CsvStream(StreamReader stream)
             */
@@ -65,7 +65,7 @@ namespace SortedCsvTests
         }
 
         /*
-        @todo #1 Create posibility for doublequotes  escapes
+        @todo #1:45min Create posibility for doublequotes  escapes
          */
         public class CsvLineReader
         {
@@ -90,7 +90,7 @@ namespace SortedCsvTests
 
 
             /* 
-            @todo #1 Move this to an extra file an clean up the old mess. 
+            @todo #1:15min Move this to an extra file an clean up the old mess. 
             */
             public string[] ReadLine(string currentValue = null, List<string> columns = null)
             {
