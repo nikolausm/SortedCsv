@@ -8,7 +8,7 @@ namespace CsvSorter
     {
         static void Main(string[] args)
         {
-            /* @todo #1 Add some Examples here */
+            /* See Tests for further examples */
             System.Console.WriteLine("Starting");
             var sortedCsv = new SortedCsvFile(filename: "asd", encoding: Encoding.GetEncoding("utf-8"), columnIndex: 0,  delimitter: ';',  hasHeader: true, enclosingCharacter: '"');
             System.Console.WriteLine("Done");
