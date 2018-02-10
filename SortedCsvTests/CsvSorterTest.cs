@@ -65,7 +65,7 @@ namespace SortedCsvTests
         }
 
         /*
-        @todo #1:45min Create posibility for doublequotes  escapes
+        @todo #1:45min Create possibility for doublequotes  escapes
          */
         public class CsvLineReader
         {
